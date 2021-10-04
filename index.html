@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PATTAL</title>
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <!-- Dropdown Structure -->
+            <ul id="logOut1" class="dropdown-content">
+                <li><a href="#!">Change Password</a></li>
+                <li><a href="#!">Log Out</a></li>
+            </ul>
+            <ul id="logOut2" class="dropdown-content">
+                <li><a href="#!">Change Password</a></li>
+                <li><a href="#!">Log Out</a></li>
+            </ul>
+            <nav class="animated fadeInDown">
+                <div class="nav-wrapper">
+                    <i id="collapseMenu" class="material-icons">menu</i>
+                    <a href="index.html" class="brand-logo"> patient portal</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-trigger navBar" href="#!" data-target="logOut1"><i
+                                    class="material-icons">person_pin</i> Mousa Elsaify<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html"><i class="material-icons">home</i> Home</a></li>
+            <li><a href="Book_general_appointment.html"><i class="material-icons">event_note</i> Book general
+                    appointment</a></li>
+            <li><a href="book_dental_appointment.html"><i class="material-icons">event_available</i> Book dental
+                    appointment</a></li>
+            <li><a href="refill_Medication.html"><i class="material-icons">autorenew</i> Refill Medication</a></li>
+            <li><a href="health_Education.html"><i class="material-icons">local_library</i> Health Education</a></li>
+            <li><a href="health_Calculator.html"><i class="material-icons">exposure</i> Health Calculator</a></li>
+            <li><a href="https://complaint.msd.med.sa/" target="blank"><i class="material-icons">live_help</i>
+                    Complaints</a></li>
+            <li><a href="rate_Our_Services.html"><i class="material-icons">mood</i> Rate Our Services</a></li>
+            <li><a href="patient_Rights.html"><i class="material-icons">description</i> Patient Rights</a></li>
+            <li><a href="sick_Leaves.html"><i class="material-icons">notifications_active</i> Sick Leaves &
+                    Notifications</a></li>
+            <li><a href="#fingerPrint"><i class="material-icons modal-trigger">fingerprint</i> FingerPrint</a></li>
+            <li><a class="dropdown-trigger navBar" href="#!" data-target="logOut2"><i
+                        class="material-icons">person_pin</i> Mousa Elsaify<i
+                        class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        <div class="sidebar-fixed animated fadeInLeft">
+            <a class="logo-wrapper waves-effect">
+                <img src="images/logo.png" class="img-fluid" alt="">
+                <h2>PATTAL</h2>
+            </a>
+            <div class="list-group list-group-flush">
+                <a href="index.html" class="list-group-item active waves-effect">
+                    <i class="material-icons">home</i> Home</a>
+                <a href="Book_general_appointment.html" class="list-group-item waves-effect">
+                    <i class="material-icons">event_note</i> Book general appointment</a>
+                <a href="book_dental_appointment.html" class="list-group-item waves-effect">
+                    <i class="material-icons">event_available</i> Book dental appointment</a>
+                <a href="refill_Medication.html" class="list-group-item waves-effect">
+                    <i class="material-icons">autorenew</i> Refill Medication</a>
+                <a href="health_Education.html" class="list-group-item waves-effect">
+                    <i class="material-icons">local_library</i> Health Education</a>
+                <a href="health_Calculator.html" class="list-group-item waves-effect">
+                    <i class="material-icons">exposure</i> Health Calculator</a>
+                <a href="https://complaint.msd.med.sa/" target="blank" class="list-group-item waves-effect">
+                    <i class="material-icons">live_help</i> Complaints</a>
+                <a href="rate_Our_Services.html" class="list-group-item waves-effect">
+                    <i class="material-icons">mood</i> Rate Our Services</a>
+                <a href="patient_Rights.html" class="list-group-item waves-effect">
+                    <i class="material-icons">description</i> Patient Rights</a>
+                <a href="sick_Leaves.html" class="list-group-item waves-effect">
+                    <i class="material-icons">notifications_active</i> Sick Leaves & Notifications</a>
+                <a href="#fingerPrint" class="list-group-item waves-effect modal-trigger">
+                    <i class="material-icons">fingerprint</i> FingerPrint</a>
+            </div>
+        </div>
+    </header>
+    <main class="container animated fadeIn">
+        <ul class="collapsible popout">
+            <li class="active">
+                <div class="collapsible-header"><i class="material-icons">person</i>SALMAN SANAT JAZI AL OTAIBI</div>
+                <div class="collapsible-body">
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row noMargin">
+                                <div class="input-field col l2 s12">
+                                    <input id="MRN_No" type="text" value="0015919871" disabled>
+                                    <label for="MRN_No">MRN No.</label>
+                                </div>
+                                <div class="input-field col l6 s12">
+                                    <input id="Patient_Name" type="text" value="SALMAN SANAT JAZI AL OTAIBI" disabled>
+                                    <label for="Patient_Name">Patient Name</label>
+                                </div>
+                                <div class="input-field col l4 s12">
+                                    <input id="Age" type="text" value="Year(s): 34, Month(s): 7, Day(s): 16" disabled>
+                                    <label for="Age">Age</label>
+                                </div>
+                            </div>
+                            <div class="row noMargin">
+                                <div class="input-field col l2 s12">
+                                    <input id="Gender" type="text" value="Male" disabled>
+                                    <label for="Gender">Gender</label>
+                                </div>
+                                <div class="input-field col l2 s12">
+                                    <input id="Date_of_Birth" type="text" class="datepicker" value="26/01/1985"
+                                        disabled>
+                                    <label for="Date_of_Birth">Date of Birth</label>
+                                </div>
+                                <div class="input-field col l2 s12">
+                                    <input id="File_Expiry" type="text" class="datepicker" value="03/02/2020" disabled>
+                                    <label for="File_Expiry">File Expiry</label>
+                                </div>
+                                <div class="input-field col l2 s12">
+                                    <input id="Blood_Type" type="text" value="-" disabled>
+                                    <label for="Blood_Type">Blood Type</label>
+                                </div>
+                                <div class="input-field col l4 s12">
+                                    <input id="Address" type="text" value="CENTRAL, RIYDAH, X" disabled>
+                                    <label for="Address">Address</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="col s12">
+                                    <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+                                        <li class="tab"><a href="#test1">Future Appointment</a></li>
+                                        <li class="tab"><a href="#test2">Lab Result</a></li>
+                                        <li class="tab"><a href="#test3">RAD Report</a></li>
+                                        <li class="tab"><a href="#test4">Medications</a></li>
+                                    </ul>
+                                </div>
+                                <div id="test1" class="col s12">
+                                    <div class="tabBody">
+                                        <table class="datatable highlight responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>HEALTH CENTER</th>
+                                                    <th>CLINIC NAME</th>
+                                                    <th>APPT DATE</th>
+                                                    <th>APPT TIME</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>MANAR HEALTH CENTRE</td>
+                                                    <td>GENERAL CLINIC</td>
+                                                    <td>10/09/2019</td>
+                                                    <td>15:30:00</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped modal-trigger"
+                                                            href="#ReSchedule" data-position="top"
+                                                            data-tooltip="Re-Schedule"><i
+                                                                class="material-icons">cached</i></a>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped warning"
+                                                            data-position="top" data-tooltip="Delete"><i
+                                                                class="material-icons">delete_forever</i></a>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped"
+                                                            data-position="top" data-tooltip="Print" target="blank"
+                                                            href="images/pdfFile.pdf"><i
+                                                                class="material-icons">local_printshop</i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Prince Sultan Melitary Medical City</td>
+                                                    <td>Teeth</td>
+                                                    <td>10/09/2019</td>
+                                                    <td>15:30:00</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped modal-trigger"
+                                                            href="#ReSchedule" data-position="top"
+                                                            data-tooltip="Re-Schedule"><i
+                                                                class="material-icons">cached</i></a>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped warning"
+                                                            data-position="top" data-tooltip="Delete"><i
+                                                                class="material-icons">delete_forever</i></a>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped"
+                                                            data-position="top" data-tooltip="Print" target="blank"
+                                                            href="images/pdfFile.pdf"><i
+                                                                class="material-icons">local_printshop</i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="test2" class="col s12">
+                                    <div class="tabBody">
+                                        <table class="datatable highlight responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>PRE CODE</th>
+                                                    <th>ORDER DATE</th>
+                                                    <th>ORDER TIME</th>
+                                                    <th>ORDER STATUS</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>CBC</td>
+                                                    <td>09/02/2016</td>
+                                                    <td>15:21</td>
+                                                    <td>COMPLETED</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped modal-trigger"
+                                                            href="#resultDesc" data-position="top"
+                                                            data-tooltip="Details"><i
+                                                                class="material-icons">description</i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>ELE</td>
+                                                    <td>09/02/2016</td>
+                                                    <td>15:32</td>
+                                                    <td>COMPLETED</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped modal-trigger"
+                                                            href="#resultDesc" data-position="top"
+                                                            data-tooltip="Details"><i
+                                                                class="material-icons">description</i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="test3" class="col s12">
+                                    <div class="tabBody">
+                                        <table class="datatable highlight responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>SECTION CODE</th>
+                                                    <th>EXAM NAME</th>
+                                                    <th>EXAM DATE</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>X RAY</td>
+                                                    <td>Post Nasal Space</td>
+                                                    <td>13/04/2017 01:46 PM</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn tableBtn tooltipped modal-trigger"
+                                                            href="#reportDesc" data-position="top"
+                                                            data-tooltip="Details"><i
+                                                                class="material-icons">description</i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="test4" class="col s12">
+                                    <div class="tabBody">
+                                        <table class="datatable highlight responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>FORMULARY NAME</th>
+                                                    <th>DOSE</th>
+                                                    <th>PERIOD</th>
+                                                    <th>STATUS</th>
+                                                    <th>DATE</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>PrednisoLONE 3mg/1mL Syrup</td>
+                                                    <td>6.6ml(s)once daily</td>
+                                                    <td>3</td>
+                                                    <td>Filled</td>
+                                                    <td>26/08/2019</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Ofloxacin 0.3% Eye drops</td>
+                                                    <td>3in each eartwice dailyfor 1 week</td>
+                                                    <td>7</td>
+                                                    <td>Filled</td>
+                                                    <td>28/03/2019</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">person</i>FAHAD SALMAN SANAT AL OTAIBI</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+    </main>
+    <footer class="page-footer grey lighten-3" style="padding-top: 0">
+        <div class="footer-copyright">
+            <div class="container grey-text">
+                © 2019 Designed & Powered by ICT.
+                <a class="grey-text right" href="#!">PSMMC Link</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="ReSchedule" class="modal">
+        <div class="modal-content">
+            <h4>ReSchedule</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+    <div id="resultDesc" class="modal">
+        <div class="modal-content">
+            <h4>resultDesc</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+    <div id="reportDesc" class="modal">
+        <div class="modal-content">
+            <h4>reportDesc</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+    <div id="fingerPrint" class="modal">
+        <div class="modal-content">
+            <h4>FingerPrint</h4>
+            <div class="row noMargin">
+                <div class="col l5 s12">
+                        <div class="row noMargin">
+                <div class="input-field col s12">
+                    <input id="DEVICE_INFORMATION" type="text" value="-" disabled>
+                    <label class="focus" for="DEVICE_INFORMATION">DEVICE INFORMATION
+                        </label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="DEVICE_ID" type="text" value="-" disabled>
+                    <label class="focus" for="DEVICE_ID">DEVICE ID</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="Device_Technology" type="text" value="-" disabled>
+                    <label class="focus" for="Device_Technology">Device Technology</label>
+                </div>
+                <div class="input-field col s12">
+                        <input id="Device_Modality" type="text" value="-" disabled>
+                        <label class="focus" for="Device_Modality">Device Modality</label>
+                    </div>
+                    <div class="input-field col s12">
+                            <input id="Device_Uid_Type" type="text" value="-" disabled>
+                            <label class="focus" for="Device_Uid_Type">Device Uid Type</label>
+                        </div>
+                </div>
+            </div>
+            <div class="col l7 s12 fingerprint_img">
+                <img src="images/fingerprint_Default.png" />
+            </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/fancyTable.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

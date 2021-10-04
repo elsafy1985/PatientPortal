@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PATTAL</title>
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <!-- Dropdown Structure -->
+            <ul id="logOut1" class="dropdown-content">
+                <li><a href="#!">Change Password</a></li>
+                <li><a href="#!">Log Out</a></li>
+            </ul>
+            <ul id="logOut2" class="dropdown-content">
+                <li><a href="#!">Change Password</a></li>
+                <li><a href="#!">Log Out</a></li>
+            </ul>
+            <nav class="animated fadeInDown">
+                <div class="nav-wrapper">
+                    <i id="collapseMenu" class="material-icons">menu</i>
+                    <a href="index.html" class="brand-logo"> patient portal</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <!-- Dropdown Trigger -->
+                        <li><a class="dropdown-trigger navBar" href="#!" data-target="logOut1"><i
+                                    class="material-icons">person_pin</i> Mousa Elsaify<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html"><i class="material-icons">home</i> Home</a></li>
+            <li><a href="Book_general_appointment.html"><i class="material-icons">event_note</i> Book general
+                    appointment</a></li>
+            <li><a href="book_dental_appointment.html"><i class="material-icons">event_available</i> Book dental
+                    appointment</a></li>
+            <li><a href="refill_Medication.html"><i class="material-icons">autorenew</i> Refill Medication</a></li>
+            <li><a href="health_Education.html"><i class="material-icons">local_library</i> Health Education</a></li>
+            <li><a href="health_Calculator.html"><i class="material-icons">exposure</i> Health Calculator</a></li>
+            <li><a href="https://complaint.msd.med.sa/" target="blank"><i class="material-icons">live_help</i>
+                    Complaints</a></li>
+            <li><a href="rate_Our_Services.html"><i class="material-icons">mood</i> Rate Our Services</a></li>
+            <li><a href="patient_Rights.html"><i class="material-icons">description</i> Patient Rights</a></li>
+            <li><a href="sick_Leaves.html"><i class="material-icons">notifications_active</i> Sick Leaves &
+                    Notifications</a></li>
+            <li><a class="dropdown-trigger navBar" href="#!" data-target="logOut2"><i
+                        class="material-icons">person_pin</i> Mousa Elsaify<i
+                        class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+        <div class="sidebar-fixed animated fadeInLeft">
+            <a class="logo-wrapper waves-effect">
+                <img src="images/logo.png" class="img-fluid" alt="">
+                <h2>PATTAL</h2>
+            </a>
+            <div class="list-group list-group-flush">
+                <a href="index.html" class="list-group-item waves-effect">
+                    <i class="material-icons">home</i> Home</a>
+                <a href="Book_general_appointment.html" class="list-group-item active waves-effect">
+                    <i class="material-icons">event_note</i> Book general appointment</a>
+                <a href="book_dental_appointment.html" class="list-group-item waves-effect">
+                    <i class="material-icons">event_available</i> Book dental appointment</a>
+                <a href="refill_Medication.html" class="list-group-item waves-effect">
+                    <i class="material-icons">autorenew</i> Refill Medication</a>
+                <a href="health_Education.html" class="list-group-item waves-effect">
+                    <i class="material-icons">local_library</i> Health Education</a>
+                <a href="health_Calculator.html" class="list-group-item waves-effect">
+                    <i class="material-icons">exposure</i> Health Calculator</a>
+                <a href="https://complaint.msd.med.sa/" target="blank" class="list-group-item waves-effect">
+                    <i class="material-icons">live_help</i> Complaints</a>
+                <a href="rate_Our_Services.html" class="list-group-item waves-effect">
+                    <i class="material-icons">mood</i> Rate Our Services</a>
+                <a href="patient_Rights.html" class="list-group-item waves-effect">
+                    <i class="material-icons">description</i> Patient Rights</a>
+                <a href="sick_Leaves.html" class="list-group-item waves-effect">
+                    <i class="material-icons">notifications_active</i> Sick Leaves & Notifications</a>
+            </div>
+        </div>
+    </header>
+    <main class="container animated fadeIn">
+        <div class="card-panel no-padding">
+            <h4 class="title"><i class="material-icons">event_note</i> Book general appointment</h4>
+            <div class="body">
+                <div class="row noMargin">
+                    <form class="col s12">
+                        <div class="row noMargin">
+                            <div class="input-field col l5 s12">
+                                <input id="HEALTH_CENTER" type="text" value="MANAR HEALTH CENTRE" disabled>
+                                <label for="HEALTH_CENTER">HEALTH CENTER</label>
+                            </div>
+                            <div class="input-field col l5 s12">
+                                <input id="CLINIC_NAME" type="text" value="GENERAL CLINIC" disabled>
+                                <label for="CLINIC_NAME">CLINIC NAME</label>
+                            </div>
+                            <div class="input-field col l2 s12">
+                                <input id="DATE" type="text" class="datepicker" value="17/09/2019" disabled>
+                                <label for="DATE">DATE</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <h6 class="notee">Dear Patient , The appointment schedule for booking for family and community
+                            medicine appointment starts from <b> 7:00 am </b> untill mednight.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <form action="#">
+                            <p class="patientName">
+                                <label>
+                                    <input class="with-gap" name="group1" type="radio" checked />
+                                    <span>SALMAN SANAT JAZI AL OTAIBI</span>
+                                </label>
+                            </p>
+                            <p class="patientName">
+                                <label>
+                                    <input class="with-gap" name="group1" type="radio" />
+                                    <span>FAHAD SALMAN SANAT AL OTAIBI</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div class="row hours">
+                    <div class="col s12 animated fadeInUp">
+                        <a class="waves-effect waves-light btn confirm">13:00</a>
+                        <a class="waves-effect waves-light btn disabled">13:15</a>
+                        <a class="waves-effect waves-light btn">13:30</a>
+                        <a class="waves-effect waves-light btn">13:45</a>
+                        <a class="waves-effect waves-light btn disabled">13:50</a>
+                        <a class="waves-effect waves-light btn disabled">13:55</a>
+                        <a class="waves-effect waves-light btn">14:00</a>
+                        <a class="waves-effect waves-light btn">14:15</a>
+                        <a class="waves-effect waves-light btn">14:30</a>
+                        <a class="waves-effect waves-light btn">14:45</a>
+                        <a class="waves-effect waves-light btn">14:50</a>
+                        <a class="waves-effect waves-light btn">14:55</a>
+                        <a class="waves-effect waves-light btn">13:00</a>
+                        <a class="waves-effect waves-light btn">13:15</a>
+                        <a class="waves-effect waves-light btn">13:30</a>
+                        <a class="waves-effect waves-light btn">13:45</a>
+                        <a class="waves-effect waves-light btn">13:50</a>
+                        <a class="waves-effect waves-light btn">13:55</a>
+                        <a class="waves-effect waves-light btn">14:00</a>
+                        <a class="waves-effect waves-light btn">14:15</a>
+                        <a class="waves-effect waves-light btn">14:30</a>
+                        <a class="waves-effect waves-light btn">14:45</a>
+                        <a class="waves-effect waves-light btn">14:50</a>
+                        <a class="waves-effect waves-light btn">14:55</a>
+                        <a class="waves-effect waves-light btn">14:00</a>
+                        <a class="waves-effect waves-light btn">14:15</a>
+                        <a class="waves-effect waves-light btn">14:30</a>
+                        <a class="waves-effect waves-light btn">14:45</a>
+                        <a class="waves-effect waves-light btn">14:50</a>
+                        <a class="waves-effect waves-light btn">14:55</a>
+                        <a class="waves-effect waves-light btn">13:00</a>
+                        <a class="waves-effect waves-light btn">13:15</a>
+                        <a class="waves-effect waves-light btn">13:30</a>
+                        <a class="waves-effect waves-light btn">13:45</a>
+                        <a class="waves-effect waves-light btn">13:50</a>
+                        <a class="waves-effect waves-light btn">13:55</a>
+                        <a class="waves-effect waves-light btn">14:00</a>
+                        <a class="waves-effect waves-light btn">14:15</a>
+                        <a class="waves-effect waves-light btn">14:30</a>
+                        <a class="waves-effect waves-light btn">14:45</a>
+                        <a class="waves-effect waves-light btn">14:50</a>
+                        <a class="waves-effect waves-light btn">14:55</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer grey lighten-3" style="padding-top: 0">
+        <div class="footer-copyright">
+            <div class="container grey-text">
+                © 2019 Designed & Powered by ICT.
+                <a class="grey-text right" href="#!">PSMMC Link</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/fancyTable.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
